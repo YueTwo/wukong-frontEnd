@@ -1,35 +1,47 @@
-# vue-template-nots
+# 项目简介
 
-This template should help get you started developing with Vue 3 in Vite.
+本仓库是**悟空智能**的前端代码，基于 Vue3 开发。
+后端模型部署，采用Flask框架，其中检测模块仓库：[DetectionCode](https://github.com/YueTwo/DetectionCode)
 
-## Recommended IDE Setup
+# 项目运行
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+npm install pnpm
+pnpm install
+pnpm dev
 ```
 
-### Compile and Hot-Reload for Development
+# 实现功能
 
-```sh
-npm run dev
-```
+1. 七十二变：跨模态生成模块
+2. 火眼金睛：伪造检测模块
 
-### Compile and Minify for Production
+# 实现效果（部分）
 
-```sh
-npm run build
-```
+## 七十二变
+### 文本指示下的影像创作
 
-### Lint with [ESLint](https://eslint.org/)
+![文本指示下的影像创作](./images/跨模态生成_视频.jpg)
 
-```sh
-npm run lint
-```
+### 文本指示下的目标替换
+
+![文本指示下的目标替换](./images/跨模态生成_目标替换.jpg)
+
+### 文本指示下的风格迁移
+
+![文本指示下的风格迁移](./images/跨模态生成_风格迁移.jpg)
+
+## 火眼金睛
+
+### PS图像篡改区域可视化
+
+![PS图像篡改区域可视化](./images/伪造检测_PS篡改.jpg)
+
+### 多人脸影像的伪造检测
+
+![多人脸影像的伪造检测](./images/伪造检测_视频_人像伪造.jpg)
+
+### 全局AIGC图片/视频检测
+
+![全局AIGC图片/视频检测](./images/伪造检测_视频_全局AIGC.jpg)
+
