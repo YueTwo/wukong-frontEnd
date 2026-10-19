@@ -1,9 +1,12 @@
-# 项目简介
+# Wukong Intelligence
 
-本仓库是**悟空智能**的前端代码，基于 Vue3 开发。
-后端模型部署，采用Flask框架，其中检测模块仓库：[DetectionCode](https://github.com/YueTwo/DetectionCode)
+[中文文档](./README.zh-CN.md) | English
 
-# 项目运行
+## Project Overview
+
+This repository contains the Vue 3 frontend for **Wukong Intelligence**. Its backend model services are built with Flask; the detection module repository is [DetectionCode](https://github.com/YueTwo/DetectionCode).
+
+## Run the Project
 
 ```bash
 npm install pnpm
@@ -11,37 +14,37 @@ pnpm install
 pnpm dev
 ```
 
-# 实现功能
+## Features
 
-1. 七十二变：跨模态生成模块
-2. 火眼金睛：伪造检测模块
+1. **Seventy-Two Transformations**: cross-modal generation module
+2. **Fiery Eyes**: forgery-detection module
 
-# 实现效果
+## Showcase
 
-## 一、七十二变
-### 1. 文本指示下的影像创作
+### I. Seventy-Two Transformations
 
-![文本指示下的影像创作](./images/跨模态生成_视频.jpg)
+#### 1. Text-guided image creation
 
-### 2. 文本指示下的目标替换
+![Text-guided image creation](./images/跨模态生成_视频.jpg)
 
-![文本指示下的目标替换](./images/跨模态生成_目标替换.jpg)
+#### 2. Text-guided object replacement
 
-### 3. 文本指示下的风格迁移
+![Text-guided object replacement](./images/跨模态生成_目标替换.jpg)
 
-![文本指示下的风格迁移](./images/跨模态生成_风格迁移.jpg)
+#### 3. Text-guided style transfer
 
-## 二、火眼金睛
+![Text-guided style transfer](./images/跨模态生成_风格迁移.jpg)
 
-### 1. PS图像篡改区域可视化
+### II. Fiery Eyes
 
-![PS图像篡改区域可视化](./images/伪造检测_PS篡改.jpg)
+#### 1. PS image-tampering localization
 
-### 2. 多人脸影像的伪造检测
+![PS image-tampering localization](./images/伪造检测_PS篡改.jpg)
 
-![多人脸影像的伪造检测](./images/伪造检测_视频_人像伪造.jpg)
+#### 2. Multi-face forgery detection
 
-### 3. 全局AIGC图片/视频检测
+![Multi-face forgery detection](./images/伪造检测_视频_人像伪造.jpg)
 
-![全局AIGC图片/视频检测](./images/伪造检测_视频_全局AIGC.jpg)
+#### 3. Global AIGC image / video detection
 
+![Global AIGC image and video detection](./images/伪造检测_视频_全局AIGC.jpg)
